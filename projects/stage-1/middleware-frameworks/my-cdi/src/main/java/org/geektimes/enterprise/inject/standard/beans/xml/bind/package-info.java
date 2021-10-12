@@ -5,5 +5,6 @@
 // Generated on: 2021.08.17 at 11:12:09 AM GMT+08:00 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://xmlns.jcp.org/xml/ns/javaee", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://xmlns.jcp.org/xml/ns/javaee",
+        elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package org.geektimes.enterprise.inject.standard.beans.xml.bind;
