@@ -41,8 +41,9 @@ public class GenericAPIDemo {
         // 原始类型 raw types : java.lang.String
         Class rawClass = String.class;
 
-        // 泛型参数类型 parameterized type
+        // 带泛型参数类型 parameterized type
         ParameterizedType parameterizedType = (ParameterizedType) ArrayList.class.getGenericSuperclass();
+        parameterizedType.getRawType();
 
         //  parameterizedType.getRawType() = java.util.AbstractList
 
